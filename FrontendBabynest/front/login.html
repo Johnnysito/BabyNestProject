@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iniciar sesión</title>
+  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="login.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+        <a href="./index.html" id="logo-container">
+            <img src="./img/logo.png" id="logo">
+            <span id="nombre-página">BabyNest</span>
+        </a>
+        <div>
+            <a href="./login.html" id="login">Inicio Sesión</a>
+            <a href="./cart.html" id="cart">
+                <img src="./img/iconos/shopping-cart.png" alt="Carrito de compras">
+                <span id="cuenta-carrito">0</span>
+            </a>
+            
+        </div>
+    </nav>
+</header>
+  
+  <main>
+  <div class="login-container">
+    <h2>Iniciar Sesión</h2>
+    <div class="input-container">
+        <input type="text" placeholder="Usuario" id="usuario" required>
+    </div>
+    <div class="input-container">
+        <input type="password" placeholder="Contraseña" id="contraseña" required>
+    </div>
+    <button type="submit">Iniciar Sesión</button>
+    <a href="./register.html">¿No tienes cuenta? Regístrate aquí</a>
+</div>
+
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="cart.css">
+	<script src="./js/cart.js" defer></script>
+	<script src="./js/cartService.js" defer></script>
+	<title>BabyNest - Carrito</title>
+</head>
+<body>
+	<header>
+        <nav>
+            <a href="./index.html" id="logo-container">
+                <img src="./img/logo.png" id="logo">
+                <span id="nombre-página">BabyNest</span>
+            </a>
+            <div>
+                <a href="./login.html" id="login">Inicio Sesión</a>
+                <a href="./cart.html" id="cart">
+                    <img src="./img/iconos/shopping-cart.png" alt="Carrito de compras">
+                    <span id="cuenta-carrito">0</span>
+                </a>
+                
+            </div>
+        </nav>
+    </header>
+	<main>
+		<p id="carrito-vacio">Este es tu carrito, <a href="#productos-container">sientete libre de agregar algo más :P</a></p>
+		<section id="productos-container"></section>
+		<section id="totales">
+			<p>Total unidades: <span id="unidades">0</span></p>
+			<p>Total precio: $<span id="precio">0</span></p>
+			<button id="comprar">Comprar</button>
+			<button id="reiniciar">Reiniciar carrito</button>
+		</section>
+	</main>
+</body>
+
+<footer class="footer">
+    <div class="footer-container">
+      <p>&copy; 2024 BabyNest. Todos los derechos reservados.</p>
+      <nav>
+        <a href="#-">Términos y Condiciones</a>
+        <a href="#-">Política de Privacidad</a>
+        <a href="#-">Contacto</a>
+      </nav>
+    </div>
+  </footer>
+</html>

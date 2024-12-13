@@ -1,0 +1,79 @@
+#productos-container {
+  width: 80%;
+  max-width: 800px;
+  margin: 140px 50px; 
+  margin-left: 510px;
+  align-items: center; 
+  background-color: #fdf8f5; 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px; 
+}
+
+.tarjeta-producto {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 10px;
+  border: 1px solid #e0c3a7; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+}
+
+.tarjeta-producto img {
+  height: 70px;
+  aspect-ratio: 1.5;
+  object-fit: cover; 
+  border-radius: 5px; 
+}
+
+.tarjeta-producto h3 {
+  width: 130px;
+  color: #5c3d2e; 
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+#totales {
+  text-align: center;
+  margin: 30px auto;
+  background-color: #f9e8d6;
+  border: 1px solid #e0c3a7;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+}
+
+#totales p {
+  font-size: 1.1rem;
+  color: #5c3d2e;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+#totales button {
+  background-color: #5c3d2e;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#totales button:hover {
+  background-color: #e0c3a7;
+  color: #5c3d2e;
+}
+
+
